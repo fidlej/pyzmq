@@ -800,7 +800,7 @@ cdef class Socket:
         msg_parts : iterable
             A sequence of messages to send as a multipart message.
         flags : int
-            Only the NOBLOCK flagis supported, SNDMORE is handled
+            Only the NOBLOCK flag is supported, SNDMORE is handled
             automatically.
         """
         for msg in msg_parts[:-1]:
